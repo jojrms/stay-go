@@ -194,8 +194,20 @@ const LandingPage = () => {
                 </aside>
 
                 <aside>
-                    <SpanBook/>
-                    <SpanBook/>
+                    <SpanBook
+                        avaliation={'4.9'}
+                        location={'Bali'}
+                        spanId={'spanUnfavorite'}
+                        h2Text={'Grand Deluxe Double with Private Pool'}
+                        price={'$35'}
+                    />
+                    <SpanBook
+                        avaliation={'4.9'}
+                        location={'Lombok'}
+                        spanId={'spanUnfavorite'}
+                        h2Text={'Pullman Legian Lombok'}
+                        price={'$40'}
+                    />
                 </aside>
                 
             </section>

@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
+import SpanBook from './othersComponents';
 
 const LandingPage = () => {
 
@@ -193,33 +194,8 @@ const LandingPage = () => {
                 </aside>
 
                 <aside>
-                    <span className='spanBook'>
-                        <div className='divImage'>
-                            <span> 
-                                <div/>
-                                4.9
-                            </span>
-                            <span> 
-                                <div/>
-                                Bali
-                            </span>
-                        </div>
-                        <div>
-                            <span></span>
-                        </div>
-                    </span>
-                    <span className='spanBook'>
-                        <div className='divImage'>
-                            <span> 
-                                <div/>
-                                4.9
-                            </span>
-                            <span> 
-                                <div/>
-                                Lombok
-                            </span>
-                        </div>
-                    </span>
+                    <SpanBook/>
+                    <SpanBook/>
                 </aside>
                 
             </section>

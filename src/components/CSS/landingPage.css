@@ -205,17 +205,19 @@ header span img{
 }
 
 .spanTextDecoration{
-    font-size: 33vw;
-    margin-left: -10vw;
     position: absolute;
-    margin-top: -15vw;
     color: transparent;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(255, 255, 255, 0.5);
     z-index: 0;
+    margin-bottom: 0;
 }
 
-
+.sectionOne .spanTextDecoration{
+    font-size: 33vw;
+    margin-left: -10vw;
+    margin-top: -15vw;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.5);
+}
 #spanMobile{
     width: 100%;
     height: 60vw;
@@ -323,26 +325,28 @@ header span img{
     grid-template-columns: repeat(2, 50%);
     width: 100%;
 }
-.sectionTwo .spanAboutUs{
+.spanText{
     width: fit-content;
     height: fit-content;
-    background-color: #DADDD5;
     color: #267AD3;
     padding: .9vw 1.5vw;
-    border-radius: 20px;
+    border-radius: 30px;
     font-weight: 600;
     letter-spacing: .5px;
-    font-size: 1vw;
+    font-size: .8vw;
     text-transform: uppercase;
+}
+.sectionTwo .spanText{
+    background-color: #DADDD5;
 }
 .sectionTwo aside article h1{
     font-size: 3vw;
     line-height: 4vw;
     margin: 0;
-    margin-top: 2vw;
+    margin-top: 1vw;
 }
 .sectionTwo aside article h2{
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: 500;
     margin-left: auto;
     line-height: 2vw;
@@ -399,5 +403,216 @@ header span img{
 
 .sectionFour{
     width: 100%;
-    height: 10vw;
+    background-color: white;
+    z-index: 5;
+    padding-bottom: 7vw;
+    position: relative;
+}
+.sectionFour .spanText{
+    background-color: #D8E9F6;
+    margin: auto;
+    display: flex;
+}
+.sectionFour h1{
+    font-size: 3vw;
+    line-height: 4.5vw;
+    margin: 0;
+    margin-top: 1vw;
+    text-align: center;
+}
+.sectionFour .spanTextDecoration{
+    font-size: 28vw;
+    margin-left: 55vw;
+    margin-top: -20vw;
+    -webkit-text-stroke-color: #ECF2FF;
+    z-index: -1;
+}
+.sectionFour aside{
+    width: 85%;
+    height: 50vw;
+    display: grid;
+    margin: auto;
+    margin-top: 3vw;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 2.5vw;
+}
+.sectionFour article{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-gap: 2.5vw;
+}
+.sectionFour article span{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    box-shadow: inset 0px -30px 60px rgba(0, 0, 0, 0.452);
+}
+.articleFirstBig{
+    grid-template-rows: 60% auto;
+}
+.articleFirstBig span:nth-child(1) h2{
+    margin-top: 23vw;
+}
+.articleFirstBig span:nth-child(2) h2{
+    margin-top: 12vw;
+}
+.articleFirstSmall span:nth-child(1) h2{
+    margin-top: 12vw;
+}
+.articleFirstSmall span:nth-child(2) h2{
+    margin-top: 23vw;
+}
+.articleFirstSmall{
+    grid-template-rows: auto 60%;
+}
+.sectionFour article span h2{
+    margin-bottom: 0;
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+.sectionFour article span p{
+    margin: 0;
+    font-size: .8vw;
+    margin-left: 2vw;
+}
+
+
+.sectionFive{
+    width: 100%;
+    background-color: #F6FAFF;
+    z-index: 0;
+    display: block;
+}
+.sectionFive .spanTextDecoration{
+    font-size: 18vw;
+    margin-top: -10vw;
+    margin-left: -8vw;
+    -webkit-text-stroke-color: #E7F0F9;
+}
+.sectionFive .spanText{
+    background-color: #D1E3F8;
+    color: #1C70D5;
+    margin-top: 5vw;
+    display: inline-block;
+    z-index: 5;
+    position: relative;
+}
+.sectionFive aside:nth-child(2){
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.sectionFive aside article h1{
+    margin-top: 1vw;
+    position: relative;
+    font-size: 3vw;
+    line-height: 4.5vw;
+    margin: 0;
+    margin-top: 1vw;
+}
+.sectionFive aside article:nth-child(2){
+    display: flex;
+    margin-left: auto;
+    margin-top: 10vw;
+    z-index: 5;
+}
+.sectionFive aside article:nth-child(2) p{
+    font-size: .9vw;
+}
+.sectionFive aside article:nth-child(2) div{
+    display: flex;
+    grid-gap: 1vw;
+    margin-left: 7vw;
+}
+.sectionFive aside article:nth-child(2) div button{
+    width: 2vw;
+    height: 2vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    background-size: 55%;
+    background-position: center;
+}
+.sectionFive aside article:nth-child(2) div button:nth-child(1){
+    transform: scaleX(-1);
+}
+#active{
+    background-color: #FEDE00;
+    background-image: url(../Images/ArrowActiveIcon.svg);
+}
+#inactive{
+    background-color: #E8F1FD;
+    background-image: url(../Images/ArrowInactiveIcon.svg);
+}
+.sectionFive aside:nth-child(3){
+    width: 90%;
+    height: 30vw;
+    margin-left: auto;
+    margin-top: 3vw;
+    display: flex;
+    grid-gap: 3vw;
+}
+.sectionFive aside:nth-child(3) .spanBook{
+    height: 100%;
+    width: 25vw;
+    background-color: white;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 60% auto;
+}
+.spanBook:nth-child(1) .divImage{
+    background-image: url(https://images.unsplash.com/photo-1520285774798-2f1616131a68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+.spanBook:nth-child(2) .divImage{
+    background-image: url(https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+}
+.spanBook:nth-child(3) .divImage{
+    background-image: url(https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+}
+.sectionFive aside:nth-child(3) span .divImage{
+    width: 95%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: red;
+    background-size: cover;
+    display: grid;
+    margin: auto;
+}
+.divImage span{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    padding: .7vw 1vw;
+    background-color: white;
+    border-radius: 30px;
+    font-size: .8vw;
+    font-weight: 500;
+}
+.divImage span div{
+    width: 1vw;
+    height: 1vw;
+    margin-right: 1vw;
+    background-size: contain;
+}
+.divImage span:nth-child(1) div{
+    background-image: url(../Images/StarIcon.svg);
+}
+.divImage span:nth-child(2) div{
+    background-image: url(../Images/Marker2Icon.svg);
+}
+
+.divImage span:nth-child(1){
+    margin: 1vw;
+}
+.divImage span:nth-child(2){
+    margin: 1vw;
+    margin-top: auto;
+}
+
+.spanBook div:nth-child(2){
+    width: 100%;
+    display: flex;
 }

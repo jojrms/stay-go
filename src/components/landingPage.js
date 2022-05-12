@@ -84,7 +84,7 @@ const LandingPage = () => {
             <section className='sectionTwo'>
                 <aside>
                     <article>
-                        <span className='spanAboutUs'>About Us</span>
+                        <span className='spanText'>About Us</span>
                         <h1>The best hotel <br/> provider for you</h1>    
                     </article>
                     <article>
@@ -122,7 +122,107 @@ const LandingPage = () => {
                 <img src='https://th.bing.com/th/id/R.2badb0eabba4098b42783009ea4e0fa7?rik=m9%2bC4rfx6RFAyQ&pid=ImgRaw&r=0'/>
             </section>
 
-            <section className='sectionFour'></section>
+            <section className='sectionFour'>
+                <span className='spanText'>Popular Destinations</span>
+                <h1>Exciting destination choices <br/> for tour trip</h1>
+
+                <span className='spanTextDecoration'>Sta</span>
+
+                <aside>
+                    <article className='articleFirstBig'>
+                        <span style={{backgroundImage: 'url(https://images.unsplash.com/photo-1601701119495-d6e39b664001?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80)'}}>
+                            <h2>Lombok</h2>
+                            <p>15+ Destinations</p>
+                        </span>
+                        <span style={{backgroundImage: 'url(https://images.unsplash.com/photo-1582574643306-d00ea3f7d49b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)'}}>
+                            <h2>Raja Ampat</h2>
+                            <p>10+ Destinations</p>
+                        </span>
+                    </article>
+                    <article className='articleFirstSmall'>
+                        <span style={{backgroundImage: 'url(https://images.unsplash.com/photo-1582610116397-edb318620f90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)'}}>
+                            <h2>Bali</h2>
+                            <p>25+ Destinations</p>
+                        </span>
+                        <span style={{backgroundImage: 'url(https://images.unsplash.com/photo-1512100254544-47340ba56b5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80)'}}>
+                            <h2>Bandung</h2>
+                            <p>8+ Destinations</p>
+                        </span>
+                    </article>
+                    <article className='articleFirstBig'>
+                        <span style={{backgroundImage: 'url(https://images.unsplash.com/photo-1565027897670-36af70e1fb03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=564&q=80)'}}>
+                            <h2>NTB</h2>
+                            <p>12+ Destinations</p>
+                        </span>
+                        <span style={{backgroundImage: 'url(https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80)'}}>
+                            <h2>Jakarta</h2>
+                            <p>18+ Destinations</p>
+                        </span>
+                    </article>
+                    <article className='articleFirstSmall'>
+                        <span style={{backgroundImage: 'url(https://images.unsplash.com/photo-1567491634123-460945ea86dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80)'}}>
+                            <h2>Yogyakarta</h2>
+                            <p>20+ Destinations</p>
+                        </span>
+                        <span style={{backgroundImage: 'url(https://images.unsplash.com/photo-1610036615605-636de68a306e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80)'}}>
+                            <h2>Surubaya</h2>
+                            <p>14+ Destinations</p>
+                        </span>
+                    </article>
+                </aside>
+            </section>
+
+            <section className='sectionFive'>
+                <span className='spanTextDecoration'>Hotels</span>
+
+                <aside>
+                    <article>
+                        <span className='spanText'>Recommendation Resorts</span>
+                        <h1>Recommendation <br/> for your trip</h1>     
+                    </article>
+                    <article>
+                        <p>Choose the most complete and best <br/>
+                            accommodation recommendations that <br/>
+                            you want to make your vacation enjoyable
+                        </p>
+                        <div>
+                            <button id='inactive' className='buttonLeft'/>
+                            <button id='active' className='buttonRight'/>
+                        </div>
+                    </article> 
+                </aside>
+
+                <aside>
+                    <span className='spanBook'>
+                        <div className='divImage'>
+                            <span> 
+                                <div/>
+                                4.9
+                            </span>
+                            <span> 
+                                <div/>
+                                Bali
+                            </span>
+                        </div>
+                        <div>
+                            <span></span>
+                        </div>
+                    </span>
+                    <span className='spanBook'>
+                        <div className='divImage'>
+                            <span> 
+                                <div/>
+                                4.9
+                            </span>
+                            <span> 
+                                <div/>
+                                Lombok
+                            </span>
+                        </div>
+                    </span>
+                </aside>
+                
+            </section>
         </>
     )
 }

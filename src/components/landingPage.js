@@ -200,6 +200,9 @@ const LandingPage = () => {
                         spanId={'spanUnfavorite'}
                         h2Text={'Grand Deluxe Double with Private Pool'}
                         price={'$35'}
+                        priceInitial={'$55'}
+                        qtdDouble={'1 Double'}
+                        spaceMeters={'150m2'}
                     />
                     <SpanBook
                         avaliation={'4.9'}
@@ -207,6 +210,29 @@ const LandingPage = () => {
                         spanId={'spanUnfavorite'}
                         h2Text={'Pullman Legian Lombok'}
                         price={'$40'}
+                        priceInitial={'$50'}
+                        qtdDouble={'1 Double'}
+                        spaceMeters={'150m2'}
+                    />
+                    <SpanBook
+                        avaliation={'4.9'}
+                        location={'Jakarta'}
+                        spanId={'spanUnfavorite'}
+                        h2Text={'Double Six Luxury International'}
+                        price={'$40'}
+                        priceInitial={'$50'}
+                        qtdDouble={'1 Double'}
+                        spaceMeters={'150m2'}
+                    />
+                    <SpanBook
+                        avaliation={'4.9'}
+                        location={'Brasil'}
+                        spanId={'spanUnfavorite'}
+                        h2Text={'Luxury Resorts Natal'}
+                        price={'$45'}
+                        priceInitial={'$52'}
+                        qtdDouble={'2 Double'}
+                        spaceMeters={'150m2'}
                     />
                 </aside>
                 
